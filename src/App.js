@@ -14,6 +14,7 @@ import AestheticSection from './components/AestheticSection';
   const [name, setName] = useState("");
   console.log(aesthetic);
 
+
   useEffect(() => {
     console.log('The fasion era aesthetic right now');
   }, [aesthetic, secondary]);
