@@ -1,19 +1,12 @@
 import React from 'react';
 
-const secondaryAestheticSection = ({setAesthetic, setSecondaryAesthetic}) => {
-
-return (
+const SecondaryAesthetic = ({ setSecondary }) => {
+  return (
     <div>
-
-<h3>
-Current secondary aesthetic is {secondaryAestheticSection}.
-</h3>
-<button onClick={() => setSecondaryAesthetic("Timeless")}>
-Fashion
-</button>
-
-</div>
-)
+      <h3>Current secondary aesthetic is Timeless.</h3>
+      <button onClick={() => setSecondary("Timeless")}>Fashion</button>
+    </div>
+  );
 };
 
-export default secondaryAestheticSection;
+export default SecondaryAesthetic;
