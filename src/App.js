@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home aesthetic={aesthetic} setAesthetic={setAesthetic} />} />
         <Route path="/AestheticSection" element={<AestheticSection aesthetic={aesthetic} />} />
-    
+        <Route index element={<Home aesthetic={aesthetic} setAesthetic={setAesthetic} />} />
       </Routes>
     </Router>
   );
