@@ -34,6 +34,7 @@ import React, { useState } from 'react';
         <button type="submit">Change Aesthetic</button>
       </form>
         </div>
+      
     );
 };
 
